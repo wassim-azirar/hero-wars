@@ -189,7 +189,7 @@ function App() {
             filter: "fuzzyText"
           },
           {
-            Header: "Attack 🔣",
+            Header: "Attack type 🔫🏹",
             accessor: "AttackType",
             filter: "fuzzyText"
           },
