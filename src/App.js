@@ -1,9 +1,12 @@
 import { matchSorter } from "match-sorter";
 import React from "react";
+import ReactGA from "react-ga";
 import { useFilters, useGlobalFilter, useSortBy, useTable } from "react-table";
 import styled from "styled-components";
 import "./App.css";
 import heros from "./data/heros.json";
+
+ReactGA.initialize("G-4V4PCD21W4");
 
 const Styles = styled.div`
   padding: 1rem;
@@ -171,6 +174,8 @@ function filterGreaterThan(rows, id, filterValue) {
 filterGreaterThan.autoRemove = val => typeof val !== "number";
 
 function App() {
+  ReactGA.pageview(window.location.pathname);
+
   const data = React.useMemo(() => heros, []);
 
   const columns = React.useMemo(
