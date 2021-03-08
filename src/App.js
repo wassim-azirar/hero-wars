@@ -48,40 +48,10 @@ function DefaultColumnFilter({ column: { filterValue, preFilteredRows, setFilter
   );
 }
 
-// This is a custom filter UI for selecting
-// a unique option from a list
-function SelectColumnFilter({ column: { filterValue, setFilter, preFilteredRows, id } }) {
-  // Calculate the options for filtering
-  // using the preFilteredRows
-  const options = React.useMemo(() => {
-    const options = new Set();
-    preFilteredRows.forEach(row => {
-      options.add(row.values[id]);
-    });
-    return [...options.values()];
-  }, [id, preFilteredRows]);
-
-  // Render a multi-select box
-  return (
-    <select
-      value={filterValue}
-      onChange={e => {
-        setFilter(e.target.value || undefined);
-      }}>
-      <option value="">All</option>
-      {options.map((option, i) => (
-        <option key={i} value={option}>
-          {option}
-        </option>
-      ))}
-    </select>
-  );
-}
-
 // This is a custom UI for our 'between' or number range
 // filter. It uses two number boxes and filters rows to
 // ones that have values between the two
-function NumberRangeColumnFilter({ column: { filterValue = [], preFilteredRows, setFilter, id } }) {
+function MinColumnFilter({ column: { filterValue = [], preFilteredRows, setFilter, id } }) {
   return (
     <div
       style={{
@@ -219,60 +189,81 @@ function App() {
             filter: "fuzzyText"
           },
           {
-            Header: "Attack 🆎",
+            Header: "Attack 🔣",
             accessor: "AttackType",
-            Filter: SelectColumnFilter,
-            filter: "includes"
+            filter: "fuzzyText"
           },
           {
             Header: "Power 🔋",
             accessor: "Power",
-            Filter: NumberRangeColumnFilter,
+            Filter: MinColumnFilter,
             filter: "between"
           },
           {
             Header: "Intel 🧠",
-            accessor: "Intelligence"
+            accessor: "Intelligence",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "Agility 💨",
-            accessor: "Agility"
+            accessor: "Agility",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "Health 💊",
-            accessor: "Health"
+            accessor: "Health",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "Armor 🛡️",
-            accessor: "Armor"
+            accessor: "Armor",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "Strength 💪",
-            accessor: "Strength"
+            accessor: "Strength",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "🧙 attack",
-            accessor: "MagicAttack"
+            accessor: "MagicAttack",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "🦶 attack",
-            accessor: "PhysicalAttack"
+            accessor: "PhysicalAttack",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "🧙 defense",
-            accessor: "MagicDefense"
+            accessor: "MagicDefense",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "🛡️ piercing",
-            accessor: "ArmorPenetration"
+            accessor: "ArmorPenetration",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "Dodge 🦘",
-            accessor: "Dodge"
+            accessor: "Dodge",
+            Filter: MinColumnFilter,
+            filter: "between"
           },
           {
             Header: "Critical 🎯",
-            accessor: "CriticalHitChance"
+            accessor: "CriticalHitChance",
+            Filter: MinColumnFilter,
+            filter: "between"
           }
         ]
       }
