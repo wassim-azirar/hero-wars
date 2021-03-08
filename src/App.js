@@ -179,6 +179,16 @@ function App() {
         Header: "Hero Wars - statistics",
         columns: [
           {
+            Cell: row => {
+              return (
+                <div>
+                  <img height={34} src={row["row"].original.Image} alt="hero" />
+                </div>
+              );
+            },
+            id: "image"
+          },
+          {
             Header: "Name",
             accessor: "Hero",
             filter: "fuzzyText"
