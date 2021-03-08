@@ -1,0 +1,53 @@
+Hero;Image;Role;AttackType;Power;Intelligence;Agility;Health;Armor;Strength;MagicAttack;PhysicalAttack;MagicDefense;ArmorPenetration;Dodge;CriticalHitChance
+Chabba;https://static.wikia.nocookie.net/hero-wars/images/5/5f/Chabba_Avatar.png;Tank Control;Physical Pure;131361;2777;3032;725212;31394;13155;8331;52454;26263;;;
+Aurora;https://static.wikia.nocookie.net/hero-wars/images/b/bb/Aurora_Avatar.png;Tank;Magic;131611;3644;3093;813094;15813;12580;35768;20290;5224;;9795;
+Cleaver;https://static.wikia.nocookie.net/hero-wars/images/2/2b/Cleaver_Avatar.png;Tank Control;Physical Pure;132324;2533;3058;837668;36019;13862;7599;47010;19948;;;
+Corvus;https://static.wikia.nocookie.net/hero-wars/images/e/e7/Corvus_Avatar.png;Tank;Physical Pure;115430;2622;2752;753157;25797;14431;7866;37903;20147;;;
+Luther;https://static.wikia.nocookie.net/hero-wars/images/9/90/Luther_Avatar.png;Tank Control;Physical;131891;3036;3301;811187;38068;13084;9108;45496;20918;;;
+Ziri;https://static.wikia.nocookie.net/hero-wars/images/d/d3/Ziri_Avatar.png;Tank;Physical;137365;2620;2750;1063865;38117;14055;7860;38288;20061;;;
+Rufus;https://static.wikia.nocookie.net/hero-wars/images/9/9d/Rufus_Avatar.png;Tank;Physical Pure;131688;3476;2442;919144;22122;13686;60593;18620;15121;;;
+Astaroth;https://static.wikia.nocookie.net/hero-wars/images/8/8c/Astaroth_Avatar.png;Tank Support;Physical;131602;3402;3065;697420;34874;13019;53317;21949;25827;;;
+Galahad;https://static.wikia.nocookie.net/hero-wars/images/3/3b/Galahad_Avatar.png;Tank;Physical Pure;131627;2776;3301;799414;37426;13115;8328;47593;18932;;;
+Ishmael;https://static.wikia.nocookie.net/hero-wars/images/8/8e/Ishmael_Avatar.png;Warrior;Physical;132100;2552;13491;357211;14231;3342;7656;69350;4227;24430;;7848
+K'arkh;https://static.wikia.nocookie.net/hero-wars/images/2/26/K%27arkh_Avatar.png;Warrior;Physical;126095;2572;13552;256972;22542;3145;7716;67020;15713;34600;;
+Markus;https://static.wikia.nocookie.net/hero-wars/images/7/7d/Markus_Avatar.png;Healer Support;PhysicalMagic;131797;12803;2814;392911;36109;3253;74518;26670;27751;;;
+Andvari;https://static.wikia.nocookie.net/hero-wars/images/1/16/Andvari_Avatar.png;Support Control;Physical;125734;2747;2877;815711;22592;14639;8241;45375;2747;23000;;
+Yasmine;https://static.wikia.nocookie.net/hero-wars/images/d/d7/Yasmine_Avatar.png;Warrior;Physical Pure;121453;2790;13466;278635;14471;2987;8370;63568;5965;;4777;7835
+Elmir;https://static.wikia.nocookie.net/hero-wars/images/d/d9/Elmir_Avatar.png;Warrior Marksman;Physical;132319;2838;13717;252658;16037;2989;8514;72475;4673;22360;9310;
+Lilith;https://static.wikia.nocookie.net/hero-wars/images/7/72/Lilith_Avatar.png;Tank Control;Magic;131667;3010;2625;699467;33864;13008;50546;22945;6589;;;
+Qing Mao;https://static.wikia.nocookie.net/hero-wars/images/3/3a/Qing_Mao_Avatar.png;Warrior;Physical Pure;132052;3045;12825;299216;15695;3056;9135;65986;6896;21650;9960;
+Satori;https://static.wikia.nocookie.net/hero-wars/images/d/d6/Satori_Avatar.png;Mage;Magic;126078;13614;2578;262987;31533;3233;78061;18820;17129;;;
+Maya;https://static.wikia.nocookie.net/hero-wars/images/8/87/Maya_Avatar.png;Healer Mage;Pure;131480;14207;2541;439071;9041;2936;105354;19339;30615;;;
+Arachne;https://static.wikia.nocookie.net/hero-wars/images/8/86/Arachne_Avatar.png;Warrior Control;MagicPure;137270;3432;12772;386087;29522;2887;49168;55948;14051;;;
+Dante;https://static.wikia.nocookie.net/hero-wars/images/f/f9/Dante_Avatar.png;Marksman;Physical;132676;3196;12538;277552;24683;3207;9588;61091;5972;22660;10177;
+Krista;https://static.wikia.nocookie.net/hero-wars/images/c/c4/Krista_Avatar.png;Mage;Magic;132031;14519;3049;415120;23216;2784;97839;20695;24883;;;
+Keira;https://static.wikia.nocookie.net/hero-wars/images/6/68/Keira_Avatar.png;Marksman;Physical Pure;125898;2458;13177;245677;21967;2980;7374;73188;6537;36595;;
+Judge;https://static.wikia.nocookie.net/hero-wars/images/4/42/Judge_Avatar.png;Mage Support;Magic;131733;13656;2954;432416;15728;3089;100555;19670;28552;;;
+Morrigan;https://static.wikia.nocookie.net/hero-wars/images/5/53/Morrigan_Avatar.png;Healer Support;Physical;115847;14382;2526;351645;10721;2921;84611;19484;26982;;;
+Celeste;https://static.wikia.nocookie.net/hero-wars/images/a/a2/Celeste_Avatar.png;Healer Control;Magic;131428;14289;2447;289647;3647;2842;99521;19233;34504;;;
+Kai;https://static.wikia.nocookie.net/hero-wars/images/a/a9/Kai_Avatar.png;Mage;Magic;131091;13499;2879;350183;2879;2884;88968;19307;26796;;;
+Isaac;https://static.wikia.nocookie.net/hero-wars/images/b/ba/Isaac_Avatar.png;Support Control;Physical;116259;2620;13801;303357;20961;3260;7860;66658;11935;15800;;
+Jhu;https://static.wikia.nocookie.net/hero-wars/images/4/4c/Jhu_Avatar.png;Marksman;Physical Pure;132234;2710;3395;646470;7272;12845;8130;42108;14952;21855;;10688
+Nebula;https://static.wikia.nocookie.net/hero-wars/images/c/c7/Nebula_Avatar.png;Support Healer;Physical;131424;2805;13071;321476;23331;2976;8415;72416;13108;;8815;
+Sebastian;https://static.wikia.nocookie.net/hero-wars/images/6/67/Sebastian_Avatar.png;Support;Physical Pure;121525;2888;12839;328602;14374;3169;8664;64819;12424;4850;;7430
+Mojo;https://static.wikia.nocookie.net/hero-wars/images/b/b6/Mojo_Avatar.png;Mage Support;Magic;131503;13443;2913;386218;2913;3048;96663;19319;27610;;;
+Heidi;https://static.wikia.nocookie.net/hero-wars/images/4/4f/Heidi_Avatar.png;Mage;Pure;132091;14534;3068;212954;13383;3068;90515;20720;25191;;10194;
+Jorgen;https://static.wikia.nocookie.net/hero-wars/images/8/84/Jorgen_Avatar.png;Control Support;Magic;131334;3554;2647;863793;19162;13207;49264;18551;33916;;;
+Orion;https://static.wikia.nocookie.net/hero-wars/images/8/82/Orion_Avatar.png;Mage;Magic;131296;13156;2885;269668;16075;3020;88677;18976;35213;;;
+Ginger;https://static.wikia.nocookie.net/hero-wars/images/f/f2/Ginger_Avatar.png;Marksman;Physical;131432;2931;13727;262342;18742;3209;8793;78112;14730;31170;;
+Daredevil;https://static.wikia.nocookie.net/hero-wars/images/0/05/Daredevil_Avatar.png;Marksman;Physical Pure;132492;2478;13176;446150;13711;3263;7434;64276;5754;11710;;11088
+Dark Star;https://static.wikia.nocookie.net/hero-wars/images/a/a8/Dark_Star_Avatar.png;Marksman Control;Physical;131573;2877;12902;264637;12902;3002;8631;68421;7478;33390;7226;
+Lars;https://static.wikia.nocookie.net/hero-wars/images/9/9c/Lars_Avatar.png;Mage Control;Magic;131640;13825;2577;278527;14149;3232;92070;19057;21385;;;
+Astrid and Lucas;https://static.wikia.nocookie.net/hero-wars/images/3/3e/Astrid_Avatar.png;Warrior Marksman;Physical;131128;2832;13456;279802;22116;3259;8496;79141;4326;34670;;
+Cornelius;https://static.wikia.nocookie.net/hero-wars/images/5/57/Cornelius_Avatar.png;Mage Support;Physical;131865;14492;2837;453210;13638;2842;103288;20300;25696;;;
+Faceless;https://static.wikia.nocookie.net/hero-wars/images/6/6d/Faceless_Avatar.png;Mage Control;Magic;131557;13405;2882;399567;2882;2887;94746;27235;18985;;;
+Fox;https://static.wikia.nocookie.net/hero-wars/images/8/8b/Fox_Avatar.png;Marksman;Physical;132057;2748;13291;247645;22346;2889;8244;71274;6008;33440;;4757
+Lian;https://static.wikia.nocookie.net/hero-wars/images/7/79/Lian_Avatar.png;Mage Control;MagicPure;131532;13833;2655;334746;23945;2920;90914;19193;40759;;;
+Phobos;https://static.wikia.nocookie.net/hero-wars/images/a/ab/Phobos_Avatar.png;Mage Control;MagicPure;131663;13433;2942;335363;14556;2952;102640;19423;27150;;;
+Artemis;https://static.wikia.nocookie.net/hero-wars/images/3/3a/Artemis_Avatar.png;Marksman;Physical;132235;2967;13340;222220;15890;2962;8901;70070;4258;33390;;8054
+Dorian;https://static.wikia.nocookie.net/hero-wars/images/a/ae/Dorian_Avatar.png;Support Healer;Magic;131623;13862;2885;492726;22964;3020;91980;19738;23749;;;
+Peppy;https://static.wikia.nocookie.net/hero-wars/images/0/0f/Peppy_Avatar.png;Mage Support;Magic;131400;13879;2736;330738;2736;2741;87811;19401;29684;;;
+Jet;https://static.wikia.nocookie.net/hero-wars/images/a/a0/Jet_Avatar.png;Support Healer;Physical;132131;14476;2781;407619;15543;2916;81257;20116;25098;;7240;
+Thea;https://static.wikia.nocookie.net/hero-wars/images/2/2a/Thea_Avatar.png;Healer Support;PhysicalMagic;131648;13630;2965;337327;23592;2986;101687;19638;29081;;;
+Helios;https://static.wikia.nocookie.net/hero-wars/images/0/02/Helios_Avatar.png;Mage Support;Magic;131783;14331;2815;437316;11015;2810;106090;20011;27456;;;
+Martha;https://static.wikia.nocookie.net/hero-wars/images/c/c1/Martha_Avatar.png;Support Healer;Physical;126155;11739;2122;617407;20032;5151;75144;16033;23616;;;
