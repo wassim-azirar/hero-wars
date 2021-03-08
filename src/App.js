@@ -240,14 +240,14 @@ function App() {
             filter: "between"
           },
           {
-            Header: "🧙 attack",
-            accessor: "MagicAttack",
+            Header: "🦶 attack",
+            accessor: "PhysicalAttack",
             Filter: MinColumnFilter,
             filter: "between"
           },
           {
-            Header: "🦶 attack",
-            accessor: "PhysicalAttack",
+            Header: "🧙 attack",
+            accessor: "MagicAttack",
             Filter: MinColumnFilter,
             filter: "between"
           },
