@@ -176,7 +176,7 @@ function App() {
   const columns = React.useMemo(
     () => [
       {
-        Header: "Heros",
+        Header: "Hero Wars - statistics",
         columns: [
           {
             Header: "Name",
