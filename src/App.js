@@ -194,7 +194,7 @@ function App() {
             id: "image"
           },
           {
-            Header: "Name",
+            Header: "Hero name",
             accessor: "Hero",
             filter: "fuzzyText"
           },
