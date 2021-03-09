@@ -209,12 +209,6 @@ function App() {
             filter: "fuzzyText"
           },
           {
-            Header: "Power 🔋",
-            accessor: "Power",
-            Filter: MinColumnFilter,
-            filter: "between"
-          },
-          {
             Header: "Intel 🧠",
             accessor: "Intelligence",
             Filter: MinColumnFilter,
